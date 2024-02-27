@@ -900,6 +900,9 @@ Bug Fixes to C++ Support
   (`#64172 <https://github.com/llvm/llvm-project/issues/64172>`_) and
   (`#64723 <https://github.com/llvm/llvm-project/issues/64723>`_).
 
+- Fix a crash when an unresolved overload set is encountered on the RHS of a ``.*`` operator.
+  (`#53815 <https://github.com/llvm/llvm-project/issues/53815>`_)
+
 Bug Fixes to AST Handling
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
